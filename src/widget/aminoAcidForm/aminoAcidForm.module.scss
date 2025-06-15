@@ -1,0 +1,45 @@
+.acid {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+.output {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 20px;
+    padding: 10px 0;
+    justify-content: flex-start;
+}
+
+.letterPair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.letter {
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 30px;
+    max-width: 30px;
+    text-align: center;
+}
+
+.check {
+    word-break: break-all;
+}
+.check_letter {
+    display: inline-flex;
+}

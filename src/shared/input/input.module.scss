@@ -1,0 +1,31 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: left;
+}
+
+.label {
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--text-color);
+}
+
+.inputField {
+    width: 100%;
+    border: 1px solid #003d5c;
+    border-radius: 12px;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--text-color);
+    padding: 16px 26px;
+    outline: none;
+    box-sizing: border-box;
+    &::placeholder {
+        color: #CCCCCC;
+    }
+}
+
+.errorMessage {
+    color: rgb(177, 0, 0);
+}
